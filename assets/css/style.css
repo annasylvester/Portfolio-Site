@@ -85,11 +85,15 @@ footer.page-footer {
   background-color: DodgerBlue;
   border: none;
   color: white;
-  padding: 12px 30px;
+  padding: 12px 25px 45px 25px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .btn:hover {
   background-color: RoyalBlue;
+}
+
+.breakitup {
+  line-height: 300%;
 }
