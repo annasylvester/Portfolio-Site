@@ -16,24 +16,24 @@
 <body>
 
   <!-- Nav Bar -->
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+  <div class="navbar-fixed">
+    <nav role="navigation" class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger transparent z-depth-0"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
   <!-- Top Parallax -->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br class="breakitup"><br class="breakitup">
+        <br class="breakitup">
+        <br class="breakitup">
+        <br class="breakitup">
         <h1 class="header center  text-lighten-2" style="color: #6e9371">Anna Lee Sylvester</h1>
         <div class="row center">
           <h5 class="header col s12 light" style="color: black;">Let's make something cool</h5>
@@ -56,45 +56,46 @@
           <h4>[ Portfolio Highlights ]</h4>
         </div>
       </div>
+
       <div class="row">
+
+        <!-- 1st Column -->
         <div class="col s12 m4">
           <div class="icon-block">
-
             <a href="https://bentegber.github.io/HAWTRN/index.html" target="_blank">
               <img class="center bwPhoto" alt="hawtrnLogo" src="./assets/images/Hawtrnsquare.png" style="width: 100%">
             </a>
-            <h5 class="center">HAWTRN</h5>
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that
-              incorporate
-              our custom components. Additionally, we refined animations and transitions to provide a smoother
-              experience for developers.</p>
+            <h5 class="center"></h5>
+            <p class="light"> Have you ever wondered what people in your neighborhood are tweeting? HAWTRN is an
+              application that uses Geolocation and Twitter's API to grab tweets in a 10 mile radius around you. It's
+              like Yik Yak and Twitter had a baby. Our team also used Firebase to save recent searches. It's dope.
+              Check it out.</p>
           </div>
         </div>
 
+        <!-- 2nd Column -->
         <div class="col s12 m4">
           <div class="icon-block">
             <a href="https://annasylvester.github.io/4-Crystal-Game/" target="_blank">
               <img class="center bwPhoto" alt="crystalGame" src="./assets/images/crystalgamesquare.png" style="width: 100%">
             </a>
-            <h5 class="center">Crystal Game</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a
-              framework that incorporates components and animations that provide more feedback to users.
-              Additionally,
-              a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <h5 class="center"></h5>
+            <p class="light">Yay math!!! Said no one ever. But here's a game for that .0001% of you who actually like
+              mathy games. Using Javascript, this game assigns a random value to each crystal. The goal is to add up
+              your crystals to the total given. Good luck... but let's be honest... I don't expect you to play this.
+            </p>
           </div>
         </div>
 
+        <!-- 3rd Column -->
         <div class="col s12 m4">
           <div class="icon-block">
             <a href="https://annasylvester.github.io/7-Train-Schedule/" target="_blank">
               <img class="center bwPhoto" alt="trainScheduler" src="./assets/images/trainschedulesquare.png" style="width: 100%">
             </a>
-            <h5 class="center">HAWTRN</h5>
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that
-              incorporate
-              our custom components. Additionally, we refined animations and transitions to provide a smoother
-              experience for developers.</p>
+            <h5 class="center"></h5>
+            <p class="light">This one is actually applicable. Hooray. Using Firebase and Javascript, this application
+              allows you to input train schedules and lets you know when the next one is coming. </p>
           </div>
         </div>
 
@@ -158,7 +159,7 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <!-- <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -206,7 +207,7 @@
         Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
   <!--  Scripts-->

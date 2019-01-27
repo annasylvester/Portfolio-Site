@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #93c497;
 }
 
 .parallax-container {
@@ -24,6 +24,10 @@ p {
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, .9);
+}
+
+#index-banner {
+  min-height: 500px;
 }
 
 .parallax img {
@@ -37,12 +41,9 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    
   }
 
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -55,9 +56,11 @@ p {
   padding: 0 15px;
 }
 
+/*
 .icon-block .material-icons {
   font-size: inherit;
 }
+*/
 
 footer.page-footer {
   margin: 0;
@@ -82,7 +85,7 @@ footer.page-footer {
 
 /* Download button*/
 .btn {
-  background-color: DodgerBlue;
+  background-color: #6e9371;
   border: none;
   color: white;
   padding: 12px 25px 45px 25px;
@@ -91,7 +94,7 @@ footer.page-footer {
 }
 
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: #93c497;
 }
 
 .breakitup {
