@@ -42,7 +42,7 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    
+
   }
 
 }
@@ -102,11 +102,15 @@ footer.page-footer {
   line-height: 300%;
 }
 
+.break {
+  line-height: 100%;
+}
+
 /* Social Icons */
 
 
 .fa-linkedin:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-github:hover {
@@ -146,4 +150,5 @@ footer.page-footer {
   margin: 10px 10px;
   border-radius: 50%;
 }
+
 
