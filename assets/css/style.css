@@ -98,6 +98,14 @@ footer.page-footer {
   background-color: #93c497;
 }
 
+.btn:visited {
+	background-color: #44854a;
+}
+
+.btn:focus {
+	background-color: #336137;
+}
+
 .breakitup {
   line-height: 300%;
 }
